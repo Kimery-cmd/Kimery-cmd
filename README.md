@@ -1,5 +1,6 @@
 Jeu du Pendu en Go
-Ce projet est une implémentation du jeu du pendu en langage Go. Le joueur doit deviner un mot caché en entrant des lettres, tout en ayant un nombre limité de vies. Le jeu affiche progressivement un motif de pendu en fonction des vies restantes.
+Ce projet est une implémentation du jeu du pendu en langage Go.
+ Le joueur doit deviner un mot caché en entrant des lettres, tout en ayant un nombre limité de vies. Le jeu affiche progressivement un motif de pendu en fonction des vies restantes.
 
 Fichiers du projet
 main.go : Le fichier principal contenant la logique du jeu.
@@ -13,7 +14,7 @@ Installation
 Clonez le dépôt :
 bash
 Copier le code
-git clone https://github.com/votre-utilisateur/pendu-go.git
+git clone https://github.com/Kimery-cmd/hangman-classic
 cd pendu-go
 Assurez-vous que tous les fichiers (words1.txt, words2.txt, words3.txt, hangman.txt) sont dans le même dossier que main.go.
 Utilisation
