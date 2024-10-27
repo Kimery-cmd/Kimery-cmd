@@ -45,10 +45,31 @@ Proposez une lettre, un mot ou tapez 'exit' pour quitter : t
 Vies restantes : 9
 Mot masqué : _ _ _ a s s e
 
+            
+         
+         
+         
+         
+         
+=========
+
 Propositions incorrectes : t
 
-Proposez une lettre, un mot ou tapez 'exit' pour quitter : classe
+Proposez une lettre, un mot ou tapez 'exit' pour quitter : q
 Vies restantes : 9
-Mot masqué : classe
-Vous avez quitté le jeu. À bientôt !
+Mot masqué : _ _ _ a s s e
+
+      |  
+      |  
+      |  
+      |  
+      |  
+=========
+
+Propositions incorrectes : t, q
+
+Proposez une lettre, un mot ou tapez 'exit' pour quitter : classe
+
+Félicitations, vous avez trouvé le mot : classe
+
 ```
