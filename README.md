@@ -19,11 +19,34 @@ go run main.go
 Le jeu propose un mot caché que le joueur doit deviner. Voici un exemple de fonctionnement :
 
 ```go
-// Lancement du jeu
-main()
+Choisissez la difficulté :
+1 - Facile
+2 - Moyen
+3 - Difficile
+Entrez votre choix (1, 2 ou 3) : 1
+Vous avez choisi la difficulté facile
 
-// Choix d'une lettre
-var guess string
-fmt.Print("Proposez une lettre, un mot ou tapez 'exit' pour quitter : ")
-fmt.Scanln(&guess) // Lecture de l'entrée utilisateur
+Vies restantes : 10
+Mot masqué : _ _ _ _ _
+
+Proposez une lettre, un mot ou tapez 'exit' pour quitter : e
+Vies restantes : 10
+Mot masqué : _ _ _ _ _
+
+Propositions incorrectes : 
+
+Proposez une lettre, un mot ou tapez 'exit' pour quitter : a
+Vies restantes : 9
+Mot masqué : _ _ _ _ _
+
+Propositions incorrectes : a
+
+Proposez une lettre, un mot ou tapez 'exit' pour quitter : t
+Vies restantes : 8
+Mot masqué : t _ _ _ _
+
+Propositions incorrectes : a
+
+Proposez une lettre, un mot ou tapez 'exit' pour quitter : exit
+Vous avez quitté le jeu. À bientôt !
 ```
